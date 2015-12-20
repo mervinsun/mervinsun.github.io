@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "java整合groove实战—xml文件解析"
+title:  "java整合groove实例—xml文件解析"
 date:   2012-04-15 20:10:15
 categories: java
 excerpt: 
