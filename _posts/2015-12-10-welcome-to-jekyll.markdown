@@ -2,7 +2,7 @@
 layout: post
 title:  "使用jekyll搭建github blog"
 date:   2015-12-11 22:14:54
-categories: docker
+categories: jekyll
 excerpt: 
 ---
 
