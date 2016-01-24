@@ -26,7 +26,7 @@ excerpt:
 ![ruby-gems]({{ "/css/pics/201601/scaling_dimensions.jpg"}})   
 ** 图片来源：[http://microservices.io/articles/scalecube.html](http://microservices.io/articles/scalecube.html "http://microservices.io/articles/scalecube.html")
 
-简单书，作者认为伸缩有3个维度：   
+简单说，作者认为伸缩有3个维度：   
 - X，副本级的伸缩，解决高可用问题   
 - Y，分片级的伸缩，解决分布式调度问题   
 - Z，功能级的解耦，区别于X和Y，解决系统级能力的伸缩   
