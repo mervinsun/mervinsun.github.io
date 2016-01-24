@@ -1,0 +1,21 @@
+# 将当前的改动暂存在本地仓库
+$ git add .
+# 将暂存的改动提交到本地仓库，并写入本次提交的注释是”first post“
+$ git commit -m "first post"
+# 将远程仓库在本地添加一个引用：origin
+$ git remote add origin https://github.com/username/projectName.git
+# 向origin推送gh-pages分支，该命令将会将本地分支gh-pages推送到github的远程仓库，并在远程仓库创建一个同名的分支。该命令后会提示输入用户名和密码。
+$ git push origin master
+
+
+branch ----------------
+git branch   // 查看当前分支
+git branch checkout newBranch   // 切换其它分支
+git branch -d newBranch // 删除分支
+
+
+
+file ---------------
+git rm 文件名  //删除文件
+git commit -m "描述"
+git push origin master
