@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker初探"
 date:   2015-4-11 22:14:54
-categories: docker
+categories: Docker
 excerpt: 
 ---
 

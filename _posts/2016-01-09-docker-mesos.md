@@ -2,7 +2,7 @@
 layout: post
 title:  "深入浅出Docker在Mesos中的应用"
 date:   2016-01-08 11:50:15
-categories: docker
+categories: Docker
 excerpt: 
 ---
 

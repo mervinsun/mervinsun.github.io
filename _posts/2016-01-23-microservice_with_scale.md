@@ -2,7 +2,7 @@
 layout: post
 title:  "从伸缩模型看云上的微服务架构"
 date:   2016-01-23 20:15:10
-categories: docker
+categories: Design
 excerpt: 
 ---
 

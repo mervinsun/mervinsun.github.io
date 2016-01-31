@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker&容器在IT行业应用现状"
 date:   2015-12-22 21:50:15
-categories: docker
+categories: Docker
 excerpt: 
 ---
 
