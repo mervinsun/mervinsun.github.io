@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "云存储管控面方向"
+title:  "云存储管控面思考"
 date:   2016-11-18 8:40:15
 categories: Storage
 excerpt:
@@ -14,7 +14,7 @@ excerpt:
 
 云是IT基础设施必然趋势，传统企业存储也在发展其云形态的存储，例如EMC的ECS，HPE的HCP，CleverSafe等，那么云存储的管控面应该关注哪些方向，整理些想法。
 
-## 云存储管控面发展方向
+## 云存储管控面发展思考
 
 
    ![ruby-gems]({{ "/css/pics/20161119/storage_m_n_c.png"}})
