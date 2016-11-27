@@ -50,7 +50,7 @@ STaaC(Storage as a Container),存储即容器。应该是目前最贴合容器�
 
 --- 典型STaaC-Portworx:
 
-   ![ruby-gems]({{ "/css/pics/20161119/portworx_architecture.jpeg"}})
+   ![ruby-gems]({{ "/css/pics/20161119/portworx_architecture.jpg"}})
 
 ---
 
