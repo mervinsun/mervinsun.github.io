@@ -42,6 +42,7 @@ excerpt:
    ![ruby-gems]({{ "/css/pics/20161119/tours_architecture.png "}})
 
 ---
+
 ### 形态3:STaaC
 
 
@@ -52,6 +53,7 @@ STaaC(Storage as a Container),存储即容器。应该是目前最贴合容器�
    ![ruby-gems]({{ "/css/pics/20161119/portworx_architecture.jpeg"}})
 
 ---
+
 ### 形态4: Container-aware
 
 
@@ -60,11 +62,18 @@ STaaC(Storage as a Container),存储即容器。应该是目前最贴合容器�
 Container-aware应该是什么？除了应该具备前3种形态的特点之外，应该还具备感知容器的能力，容器粒度的能力，而不是将这部分能力卸载到主机侧，可以参考虚拟化存储的例子：Tintri。Tintri定位于虚拟化感知，不同于传统虚拟化存储大LUN，小LUN的方式，Tintri直接将整个存储集群定义为一个VMstore，并且映射给vmware的一个Datastore，后面在这个Datastore创建的虚拟机不需要在关注卷，Tintri摒弃了卷的概念，而是通过自身数据面去感知VM，并实现了VM-Level的管理、分析、保护和迁移能力，这才是真正面向一种虚拟化技术的存储最佳方式。容器生态也是同理的，若能实现面向容器引擎甚至Pod集群的ContainerStore，而不是在Container这一级，将大大减少容器存储的粒度，并实现数据面的容器感知能力，基于感知容器数据卷实现Container-level的管理、分析、保护、迁移，才是容器存储的最佳形态。
 Container-aware兼具之前3种形态的特点，管控面+数据面，形态上兼具Cloud-native+ContainerStore。
 
---- 4个形态的演进总结:
+--- Tintri的VM-aware参考:
+
+   ![ruby-gems]({{ "/css/pics/20161119/Tintri_architecture.jpeg"}})
+
+---
+
+## 4个形态的演进总结:
 
    ![ruby-gems]({{ "/css/pics/20161119/container_trend.jpeg"}})
 
 ---
+
 ## 尽头？
 
 IT云技术瞬息万变，伴随着IoT、AI、VR\AR这些新兴应用的未来我们不得而知，或许未来的应用存储都像无状态转型，S3、MQ、NoSQL、EventHub，这些将成为主存储也未尝不可，存储则只是一个数据总线或共享数据池，非结构化数据完全替代结构化数据，那时候可能不再需要不需要容器存储了。
